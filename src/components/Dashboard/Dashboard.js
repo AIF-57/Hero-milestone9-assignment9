@@ -1,5 +1,5 @@
 import React from 'react';
-import { LineChart, Line, AreaChart, Area,BarChart, Bar, PieChart, Pie, Sector, Cell, XAxis, YAxis, Tooltip, Legend, CartesianGrid} from 'recharts';
+import { LineChart, Line, AreaChart, Area,BarChart, Bar, PieChart, Pie, Sector, Cell, XAxis, YAxis, Tooltip, Legend, CartesianGrid, ResponsiveContainer} from 'recharts';
 import data from '../../utilities/product-analysis-website-main/data.json'
 
 
@@ -7,8 +7,9 @@ const Dashboard = () => {
     return (
         <div className='text-3xl my-10'>
             <p>Dashboard</p>
-            <div className="charts grid grid-cols-2 gap-x-3 gap-y-20 mt-20">
-                <LineChart width={400} height={300} data={data} className={'text-sm'}>
+            <div className="charts grid md:grid-cols-2 gap-x-3 gap-y-20 mt-20 justify-items-center">
+            
+                <LineChart  width={300} height={200} data={data} className={'text-sm'}>
                     <Line type={'monotone'} dataKey={'sell'}/>
                     <XAxis dataKey={'month'} />
                     <YAxis />
@@ -16,7 +17,7 @@ const Dashboard = () => {
                     <Legend/>
                 </LineChart>
 
-                <AreaChart width={400} height={300} data={data} className={'text-sm'}>
+                <AreaChart width={300} height={200} data={data} className={'text-sm'}>
                     <CartesianGrid strokeDasharray="3 3"/>
                     <XAxis dataKey={"month"} />
                     <YAxis />
@@ -27,7 +28,7 @@ const Dashboard = () => {
                     <Area type="monotone" dataKey="revenue" stackId="1" stroke="#ffc658" fill="#ffc658" />          
                 </AreaChart>
 
-                <BarChart width={400} height={300} data={data} className={'text-sm'}>
+                <BarChart width={300} height={200} data={data} className={'text-sm'}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
                     <YAxis />
@@ -37,7 +38,7 @@ const Dashboard = () => {
                     <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
                 </BarChart>
 
-                <PieChart width={400} height={300} data={data} className={'text-sm'}>
+                <PieChart width={300} height={200} data={data} className={'text-sm'}>
                     <Tooltip />
                     <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
                     <Pie data={data} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
