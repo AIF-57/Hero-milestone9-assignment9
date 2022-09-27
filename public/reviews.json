@@ -1,0 +1,62 @@
+[
+    {
+        "id":"01",
+        "name":"Jay Hash",
+        "sentence":"Excellent headphones, made in the typical first draft Apple way",
+        "rating":"4.5"
+    },
+    {
+        "id":"02",
+        "name":"Liam McFerrin",
+        "sentence":"Absolutely worth it. Conditionally.",
+        "rating":"5.0"
+    },
+    {
+        "id":"03",
+        "name":"Matthew Kendall",
+        "sentence":" Best in class",
+        "rating":"5.0"
+    },
+    {
+        "id":"04",
+        "name":"Truthful Reviewer",
+        "sentence":"#1 Wireless Headphones - Best Sound, Excellent Build Quality & Comfort - Full Detailed Review",
+        "rating":"5.0"
+    },
+    {
+        "id":"05",
+        "name":"Matthew Kendall",
+        "sentence":"Best in class",
+        "rating":"4.0"
+    },
+    {
+        "id":"06",
+        "name":"David Whitcher",
+        "sentence":"Bose Noise Canceling 700 vs AirPods Max",
+        "rating":"5.0"
+    },
+    {
+        "id":"07",
+        "name":"JoMo",
+        "sentence":"Seamless integration with iOS devices (EDIT: but get the extra warranty)",
+        "rating":"5.0"
+    },
+    {
+        "id":"08",
+        "name":"Aaron",
+        "sentence":"5.0 out of 5 stars After 5 months I write this review. Amazing headphones, a must-have for Apple nerds.",
+        "rating":"5.0"
+    },
+    {
+        "id":"09",
+        "name":"dookerJ",
+        "sentence":"These are very luxurious headphones",
+        "rating":"5.0"
+    },
+    {
+        "id":"10",
+        "name":"Brother Tao",
+        "sentence":"HAD HIGH HOPES BUT GOT THE HIGH HAT!",
+        "rating":"3.0"
+    }
+]
