@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import { Route, Routes } from 'react-router-dom';
@@ -8,6 +7,7 @@ import Reviews from './components/Reviews/Reviews';
 import Dashboard from './components/Dashboard/Dashboard';
 import About from './components/About/About';
 import Blogs from './components/Blogs/Blogs';
+import QuickView from './components/QuickView/QuickView';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
         <Route path='/dashboard' element={<Dashboard></Dashboard>}/>
         <Route path='/blogs' element={<Blogs></Blogs>}/>
         <Route path='/about' element={<About></About>}/>
+        <Route path='/quickview' element={<QuickView></QuickView>}/>
         <Route path='*' element={<NotFound></NotFound>}/>
       </Routes>
 

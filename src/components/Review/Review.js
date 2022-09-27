@@ -11,7 +11,7 @@ const Review = ({review}) => {
                 <p className='font-semibold text-lg'>{name}</p>
              </div>
              <p className='h-20'><FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>{sentence}</p>
-             <span className='block mt-5 '>rating : {rating}</span>
+             <small className='block mt-5 '>rating : {rating}</small>
         </div>
     );
 };
