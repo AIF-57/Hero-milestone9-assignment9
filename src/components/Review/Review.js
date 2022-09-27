@@ -5,7 +5,7 @@ import { faUser,faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
 const Review = ({review}) => {
     const {name,sentence,rating,id} = review;
     return (
-        <div className='border py-5 rounded-lg'>
+        <div className='border py-5 rounded-lg my-5 md:my-0'>
              <div className="credential my-5">
                 <FontAwesomeIcon icon={faUser} className='text-3xl'/>
                 <p className='font-semibold text-lg'>{name}</p>
